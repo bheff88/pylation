@@ -4,7 +4,7 @@
 
 #### Introduction to Relational Networks 
 
-Relational Networks (RNs) are a gaining recognition within field of Deep Learning, introduced by DeepMind in 2017 (click [here](https://arxiv.org/pdf/1706.01427.pdf) for the original paper). RNs are fundamentally structured to learn or infer relationships between unique objects in a system - i.e. they learn the rules governing interactions between objects in a system. Basically, RNs are a system of stacked, inter-connected multilayered perceptrons that are much less sensitive to hyperparameter selection. Results indicate they are more robust and broadly generalizable to a variety of applications such as image classification and weather forecasting. Furthermore, they can easily be used in unison with any type of previously developed Neural Network model (as shown in [examples](examples)). 
+Relational Networks (RNs) are a gaining recognition within field of Deep Learning, introduced by DeepMind in 2017 (click [here](https://arxiv.org/pdf/1706.01427.pdf) for the original paper). RNs are fundamentally structured to learn or infer relationships between unique objects in a system - i.e. they learn the rules governing interactions between objects in a system. Basically, RNs are a system of stacked, inter-connected multilayered perceptrons that are much less sensitive to hyperparameter selection. Results indicate they are more robust and broadly generalizable to a variety of applications such as image classification and weather forecasting. Furthermore, they can easily be used in unison with any type of previously developed Neural Network model (as shown in [examples](examples)).
 
 
 #### Introduction to PyLation
