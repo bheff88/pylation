@@ -1,9 +1,9 @@
 package:
   name: pylation
-  version: "0.1a"
+  version: "0.1"
 
 source:
-  git_rev: v0.1a
+  git_rev: "v0.1-alpha"
   git_url: https://github.com/bheff88/pylation.git
 
 requirements:
