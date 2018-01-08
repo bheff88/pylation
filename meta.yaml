@@ -1,9 +1,9 @@
 package:
   name: pylation
-  version: "0.1a0.1"
+  version: "0.1a"
 
 source:
-  git_rev: v0.1a0.1
+  git_rev: v0.1a
   git_url: https://github.com/bheff88/pylation.git
 
 requirements:
@@ -12,10 +12,6 @@ requirements:
     - setuptools
   run:
     - python
-
-test:
-  imports:
-    - pylation
 
 about:
   home: https://github.com/bheff88/pylation
