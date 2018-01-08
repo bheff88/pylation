@@ -1,8 +1,12 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  8 15:05:12 2018
+from setuptools import setup
 
-@author: braden
-"""
-
+setup(name='pylation',
+      version='0.1',
+      description='Test upload of relational network',
+      url='http://github.com/bheff88/pylation',
+      author='Braden Heffernan',
+      author_email='baheffer@ucalgary.ca',
+      license='MIT',
+      packages=['pylation'],
+      install_requires=['keras-gpu'],
+      zip_safe=False)
