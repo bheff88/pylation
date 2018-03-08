@@ -1,5 +1,4 @@
 # PyLation - Relational Network (RN) for Keras
-Note: I will probably not have time to maintain this package, so anyone who can take over should feel free...I wouldn't mind a small amount of credit if you find this repository helpful. 
 
 'pip install pylation'
 
