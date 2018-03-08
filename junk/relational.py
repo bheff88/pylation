@@ -232,21 +232,12 @@ class relational():
             Simple Keras lambda function to sum along inner axis
             '''
             return K.sum(t, axis=-2)
-
-        combined = Reshape((int(self.Rdims[1]),
-                            int(self.Sdims[1]),
-                            int(t.shape[-1])))(t)
-
-        '''
-        Switch out = Sum(combined) for out = Flatten()(combined) if you have
-        smaller vectors coming from 'combined'- less information loss than if
-        you sum the outer rows -> alternatively you could use some kind of
-        recursive layer to condense everything into the shape you need to
-        train the output on...(1,N) vector usually.
-
-        '''
         Sum = Lambda(sums)
-        out = Sum(combined)
+        out = Reshape((int(self.Rdims[1]),
+                       int(self.Sdims[1]),
+                       int(t.shape[-1])))(t)
+
+        out = Sum(out)
 #        out = Flatten()(out)
         out = Concatenate(axis=-1)([self.ORin, out])
 
@@ -265,8 +256,4 @@ class relational():
 
 
 def Relational(ORin, OSin, hyperparams1, hyperparams2):
-    '''
-       Just makes it a little easier to call from your code, but make sure
-       your saving the weights fairly regualrily.
-    '''
     return relational(ORin, OSin, hyperparams1, hyperparams2).Run()
