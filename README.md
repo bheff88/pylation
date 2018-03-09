@@ -21,10 +21,12 @@ PyLation is easily linked with other Keras layers (LSTM, Dense, CNN etc.), which
 
  "TABLE-88;   SEAT-03;   DETECTED-Credit Card on table + food half finished;       SOLUTION-Payment machine + take-out box"
  "TABLE-05;   SEAT-02;   DETECTED-Water empty + food delivered + cutlery on floor; SOLUTION-Water jug + new cutlery"
- "TABLE-12;   SEAT-03;   DETECTED-Beer full + food complete + ;                    SOLUTION-Desert Menu + clearing tray"
+ "TABLE-12;   SEAT-03;   DETECTED-Beer full + food complete;                       SOLUTION-Desert Menu + clearing tray"
 
-This could all be done with open source software, and it could be done much easier than training a car to drive itself.).
+This could all be done with open source software, and it could be done much easier than training a car to drive itself. Service standards could be nearly flawless and the continuous anxiety for those working within the service industry would be much more manageable).
+
 8. Traffic patterns (link with CNN's and traffic camera data maybe...my guess is this is well researched and optimized already, but you never know).
+
 9. Algorithmic trading stuff (not tellin!!).
 
 
