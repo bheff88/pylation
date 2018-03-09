@@ -11,23 +11,26 @@ In a nutshell, the final script (not yet posted here) has the ability to forcast
 ### Some potential applications for Relational Networks
 PyLation is easily linked with other Keras layers (LSTM, Dense, CNN etc.), which makes life pretty easy for those in predictive analytics! To attract your attention, below are a few things this package (or likely a better version of it) **might** be applicable to. Fyi: please feel free to attempt any of these and keep me posted...if it works we'll try and get it into production for you (it can be a lonely difficult time trying to get something into production, especially when seeking trustworthy business partners).
 
-1. Weather forecasting (pretty well known field, but industry standard is spotty, especially close to mountain ranges. For example, in Calgary, Alberta we are basically told it will most likely be pretty cold, but there is also a chance of it being pretty warm, as well as a chance that it might be quite windy. Essentially, forecasting methods in highly variable climates have large margins of error - something not always appreciated by those in more temperate regions.).
-2. Habitable planet detection (would be very cool to spend time on, if not overly profitable - likely need high precision machines and all the data that is available).
-3. Wildfire prediction (British Columbia & California ---> there will be a desperate need in the coming decades. Likely will need autonomous weather surveillance stations, terabytes of overhead imagery, thousands of cheap but well placed moisture monitors, and historical wildfire data, all of this is inexpensive relative to the damages caused by fires. Unfortunately, due to the differences in geography, the regional systems will require customization, meaning it should be collaberative between locations in the world that are experiencing these very costly wildfires -> This might already be in the works, it's hard to know, but Relational Networks will help out).
-4. Realestate prices (pretty easy, but new data is hard (and probably $$$$) to find).
-5. Ocean currents & jetstream behaviour (should be able to find some data for this) - it would be interesting to see if an RN is able to extrapolate the effects of climate change based on a huge amount of historical data from various sources, I'll wager on it outperforming current models).
-6. Resturaunt industry (predicting the busy and slow nights for staffing purposes...we're pretty bad at it currently, and minimum wage is about to go up again in Alberta. 
-7. Service Industry (You could monitor in-house customer service standards based off a number of easily collected variables -> for example, in a resturaunt, each table would need a small camera directed at it (not the customer, but the food) to collect live data on everything from rate of consumption, remaining quantities, as well as customer preferences. A Relational Network will be able to tie it all together and simply notify the staff. Example:
+1. Weather forecasting: Pretty well known field, but industry standard is spotty, especially close to mountain ranges. For example, in Calgary, Alberta we are basically told it will most likely be pretty cold, but there is also a chance of it being pretty warm, as well as a chance that it might be quite windy. Essentially, forecasting methods in highly variable climates have large margins of error - something not always appreciated by those in more temperate regions.
+2. Habitable planet detection: Already being attempted with NN's I'm sure, but it would be very cool to spend time on, if not overly profitable - likely need high precision machines and all the data that is available.
+3. Wildfire prediction: British Columbia & California ---> there will be a desperate need in the coming decades. Likely will need autonomous weather surveillance stations, terabytes of overhead imagery, thousands of cheap but well placed moisture monitors, and historical wildfire data, all of this is inexpensive relative to the damages caused by fires. Unfortunately, due to the differences in geography, the regional systems will require customization, meaning it should be collaberative between locations in the world that are experiencing these very costly wildfires -> This might already be in the works, it's hard to know, but Relational Networks will help out.
+4. Realestate prices: Pretty easy, but new data is hard (and probably $$$$) to find.
+5. Ocean currents & jetstream behaviour (should be able to find some data for this) - it would be interesting to see if an RN is able to extrapolate the effects of climate change based on a huge amount of historical data from various sources, I'll wager on it outperforming current models.
+6. Service Industry: You could monitor in-house customer service standards based off a number of easily collected variables -> for example, in a resturaunt, each table would need a small camera directed at it (not the customer, but the food) to collect live data on everything from rate of consumption, remaining quantities, as well as customer preferences (sign in via app upon arrival??). A Relational Network should be able to tie it all together and simply notify the staff. Example:
 
  "TABLE-88;   SEAT-03;   DETECTED-Credit Card on table + food half finished;       SOLUTION-Payment machine + take-out box"
  "TABLE-05;   SEAT-02;   DETECTED-Water empty + food delivered + cutlery on floor; SOLUTION-Water jug + new cutlery"
  "TABLE-12;   SEAT-03;   DETECTED-Beer full + food complete;                       SOLUTION-Desert Menu + clearing tray"
 
-This could all be done with open source software, and it could be done much easier than training a car to drive itself. Service standards could be nearly flawless and the continuous anxiety for those working within the service industry would be much more manageable).
+This could all be done with open source software, and it could be done much easier than training a car to drive itself. Service standards could be nearly flawless and the continuous anxiety for those working within the service industry would be much more manageable...trust me, when you have to serve 10 tables at once your "to-do list" is a complete nightmare, and one mistake can lead to a customer deciding to write an email to your boss about the "idiotic server who forgot the beer for 4 minutes"....
 
-8. Traffic patterns (link with CNN's and traffic camera data maybe...my guess is this is well researched and optimized already, but you never know).
+Just hire more staff you say? Minimum wage increase doesn't allow for that. Grinds my gears.
 
-9. Algorithmic trading stuff (not tellin!!).
+7. Traffic patterns: Link with CNN's and traffic camera data maybe...my guess is this is well researched and optimized already, but you never know.
+
+8. Financial fraud detection: Pretty basic math really. Will be especially relevant (and applicable) to the blockchain and much easier to implement than in banks or large coorporations who use the now very dated "wire transfer system". Unless they adopt blockchain...which they will - but from what I hear even just adopting a new insurance provider in a large corporation is a mess. Imagine saying; "we no longer accept wire transfers...", there would be one or two complaints. 
+
+8. Algorithmic trading stuff: Not tellin!!
 
 
 #### Introduction to Relational Networks 
