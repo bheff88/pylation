@@ -17,6 +17,6 @@ echo 'export CDF_INC=$CDF_BASE/include' >> ~/.bashrc
 echo 'export CDF_LIB=$CDF_BASE/lib' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=$HOME/cdf-dist/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
 source ~/.bashrc
-source ./anaconda3/bin/activate CPU
+source ~/anaconda3/bin/activate CPU
 rm -rf *.gz
 pip install spacepy
