@@ -7,7 +7,7 @@ source ~/.bashrc
 ./anaconda3/bin/conda update -y conda
 ./anaconda3/bin/conda create -y -n CPU python=3.5 pickleshare pandas scipy h5py networkx
 sudo apt install make gcc gfortran libncurses-dev
-wget https://cdaweb.gsfc.nasa.gov/pub/software/cdf/dist/latest-release/linux/cdf36_4-dist-all.tar.gz
+wget https://cdaweb.gsfc.nasa.gov/pub/software/cdf/dist/latest-release/linux/cdf36_0-dist-all.tar.gz
 tar xf cdf36_4-dist-all.tar.gz
 cd ~/cdf36_4-dist
 make OS=linux ENV=gnu CURSES=yes FORTRAN=no UCOPTIONS=-O2 SHARED=yes -j4 all
